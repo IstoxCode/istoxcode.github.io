@@ -1,0 +1,38 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.students {
+    font-family: Sans-Serif;
+    font-size: 14px;
+    width: inherit;
+    text-align: left;
+    border-spacing: 20px 0px;
+    color: #4a5157;
+}
+
+.students th:first-child, .students td:first-child {
+  color: #ffffffe1;
+  border-left: none;
+}
+
+.students th:last-child, .students td:last-child {
+    border-right: none;
+}
+
+.students th {
+  border-bottom: 2px solid #f3de9e;
+  padding: 8px 10px;
+}
+
+.students td {
+  padding: 12px 10px;
+  color: #8b8e91;
+}
